@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #formu{position: absolute;top: -120px;right:400px;margin: auto;}
+    #Nombre{position: absolute;top: 300px;right: 320px;height: 25px;width: 200px;border: 1px solid #eeff00;font-size: 20px;border-radius: 5px 5px 5px 5px;padding: 5px;}
+    #Apellidos{position: absolute;top: 300px;right: 100px;height: 25px;width: 200px;border: 1px solid #eeff00;font-size: 20px;border-radius: 5px 5px 5px 5px;padding: 5px}
+    #correo{position: absolute;top: 350px;right: 100px;height: 25px;width: 420px;border: 1px solid #eeff00;font-size: 20px;border-radius: 5px 5px 5px 5px;padding: 5px;}
+    #contras{position: absolute;top: 400px;right: 100px;height: 25px;width: 420px;border: 1px solid #eeff00;font-size: 20px;border-radius: 5px 5px 5px 5px;padding: 5px}
+    #nac{position: absolute;right: 630px;top: 317px;width: 300px;font-size: 20px;color: rgba(0, 0, 0, 0.842);}
+    #sex{position: absolute;right: 630px;top: 375px;width: 300px;font-size: 20px;color: rgba(0, 0, 0, 0.842);}
+    #sexo{position: absolute;right:540px;top: 400px;width: 300px;font-size: 19px;width: 400px;}
+    #date{position: absolute;right:-49px;height: 27px;width: 50px;text-align: center;top: 0px;}
+    #number{position: absolute;width: 37px;right:5px;text-align: center;height: 21px;}
+    #year{position: absolute;width:50px;right:-110px;text-align: center;height: 21px;}
+    #bot{position: absolute;top: 345px;right: 880px}
+    #reg{position: absolute;font-size: 35px;top: 100px;right:630px;font-family: arial;}
+    #fac{position: absolute;font-size: 20px;top: 145px;right: 380px;font-family: arial;}
+    #paa{position: absolute;top: 435px;right:550px;width: 380px;color: rgb(0, 0, 0);font-size: 16px;}
+    #boton{position: absolute;color: white;background-color: #000000;text-align: center;width: 180px;height: 35px;border-radius: 5px 5px 5px 5px;top: 545px;right:640px;font-size: 18px;cursor: pointer;border:2px solid #eeff00;padding: 5px;}
+    #ult{position: absolute;top: 590px;right: 140px;width: 400px;color: #747680;font-size: 14px;}
+    .a{color: rgb(255, 0, 0);}
+    </style>
+</head>
+<body><div style="width: 500px;height: 500px;right: 470px;top: 90px;position: absolute;border-radius: 20px 20px 20px 20px;border: 2px solid teal;"></div>
+    <div id=reg><b>Registrarte</b></div>
+    <div id=formu>
+        <input type="text" id=Nombre placeholder="Nombre">   
+        <input type="text" id=Apellidos placeholder="Apellidos">  
+        <input type="text" id=correo placeholder="Número de móvil o correo electrónico"> 
+        <input type="text" id=contras placeholder="Contraseña nueva"> 
+    </div>
+    <div id=bot>
+        <select id=date>
+        <option>Mes</option>
+        <option>Ene</option>
+        <option>Feb</option>
+        <option>Mar</option>
+        <option>Abr</option>
+        <option>May</option>
+        <option>Jun</option>
+        <option>Jul</option>
+        <option>Ago</option>
+        <option>Sept</option>
+        <option>Oct</option>
+        <option>Nov</option>
+        <option>Dic</option>
+        </select>
+        <input type="number"min="1" max="31" id=number placeholder="Día">
+        <input type="number"min="1940" max="2021" id=year placeholder="Año">
+    </div>
+    <div id=nac><b>Fecha de nacimiento</b></div>
+    <div id=sex><b>Sexo</b></div>
+    <div id=sexo>
+    <input type="radio">Mujer
+    <input type="radio">Hombre
+    <input type="radio">Personalizado
+    </div>
+
+    <div id=paa>Al hacer clic en Registrarte, aceptas nuestras <a href="" class="a">Condiciones</a>.
+    Obtén más información sobre cómo recopilamos,usamos y compartimos tu información en la <a href=""class="a">Política de datos</a>,así como el uso que hacemos de las cookies y tecnologías similares en nuestra <a href=""class="a">Política de cookies</a>
+    </div> 
+    <button id=boton>Registrarte</button>
+</body>
+</html>
